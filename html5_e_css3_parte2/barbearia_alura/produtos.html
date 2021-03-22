@@ -1,27 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html lang="pt-br"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Alura - Produtos</title>
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/produtos.css">
 </head>
+
 <body>
-    <header>
-        <h1>
-            <img src="assets/produtos/logo.png" alt="Barbearia Alura">
-        </h1>
-        <ul>
+    <header class="header__background">
+        <div class="main-menu__container">
+            <h1>
+                <img src="assets/produtos/logo.png" alt="Barbearia Alura">
+            </h1>
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home </a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <ul class="products-list">
             <li>
-                <a href="index.html">Home </a>
+                <h2>Cabelo</h2>
+                <img src="./assets/produtos/cabelo.jpg" alt="Ícone de Cabelo">
+                <p class="product__description">Na tesoura ou máquina, como o cliente preferir</p>
+                <p class="product__price">R$ 25,00</p>
             </li>
             <li>
-                <a href="produtos.html">Produtos</a>
+                <h2>Barba</h2>
+                <img src="./assets/produtos/barba.jpg" alt="Ícone de Barba">
+                <p class="product__description">Corte e desenho profissional de barba</p>
+                <p class="product__price">R$ 18,00</p>
             </li>
             <li>
-                <a href="contato.html">Contato</a>
+                <h2>Cabelo + Barba</h2>
+                <img src="./assets/produtos/cabelo+barba.jpg" alt="Ícone de Cabelo e Barba">
+                <p class="product__description">Pacote completo de cabelo e barba</p>
+                <p class="product__price">R$ 35,00</p>
             </li>
         </ul>
-    </header>
+    </main>
 </body>
+
 </html>
