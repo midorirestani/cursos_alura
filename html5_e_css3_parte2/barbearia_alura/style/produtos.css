@@ -78,3 +78,15 @@
 .product__description {
     font-size: 18px;
 }
+
+.footer {
+    text-align: center;
+    background-image: url(../assets/produtos/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
