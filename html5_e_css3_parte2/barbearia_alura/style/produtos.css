@@ -52,6 +52,18 @@
     border-radius: 10px;
 }
 
+.products-list li:hover {
+    border-color: #C78C19;
+}
+
+.products-list li:hover h2 {
+    font-size: 34px;
+}
+
+.products-list li:active {
+    border-color: #088C19;
+}
+
 .products-list h2 {
     font-size: 30px;
     font-weight: bold;
