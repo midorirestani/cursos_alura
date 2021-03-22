@@ -28,6 +28,11 @@
     text-decoration: none;
 }
 
+.main-menu a:hover {
+    text-decoration: underline;
+    color: #C78C19;
+}
+
 .products-list {
     position: relative;
     width: 940px;
