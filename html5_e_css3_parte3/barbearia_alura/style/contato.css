@@ -1,0 +1,108 @@
+.header__background {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.main-menu__container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.main-menu {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.main-menu li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.main-menu a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+    color: #C78C19;
+}
+
+.footer {
+    text-align: center;
+    background-image: url(../assets/produtos/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.main-content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin: 40px 0;
+}
+
+.contact-form label,
+.contact-form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-form-input__standard {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.contact-form-input__checkbox {
+    margin: 20px 0;
+    margin-right: 5px;
+}
+
+.submit {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.8s all;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: darkorange;
+    transform: scale(1.05);
+}
+
+.working-hours {
+    margin: 20px 0 40px;
+}
+
+.working-hours thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+.working-hours td,
+.working-hours th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
